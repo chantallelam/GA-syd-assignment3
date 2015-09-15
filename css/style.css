@@ -1,0 +1,199 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+    background-color: #033048;
+    height: 80px;
+    padding: 20px 20px;
+}
+
+.blogposts{
+    float:left;
+    width: 700px;
+    padding:20px 10px 20px 70px;
+
+}
+aside{
+    float:right;
+    width: 240px;
+    padding: 0px 30px 0px 0px;
+}
+
+.signup{
+    clear: both;
+    background-color: #f9e42e;
+    height:60px;
+    padding-top: 14px;
+    
+}
+
+footer {
+    clear: both;
+    background-color:#121212;
+    height: 150px;
+}
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1{
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;  
+    width: 300px;
+    position: absolute;
+}
+nav{
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:  #f9e42e;
+    position: inherit;
+    float: right;
+    padding-top: 14px;
+    width:300px;
+    word-spacing: 10px;
+    
+}
+
+h2{
+    font-family: "Open sans", sans-serif;
+    font-weight: semi-bold;
+    font-size: 40px;
+    color: #033048;
+}
+
+p{
+    font-family: "Open sans", sans-serif;
+    font-weight: light;
+    font-size: 15px;
+    color: #033048;
+    padding-top: 10px;
+}
+h3{
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #033048;
+}
+a{
+    font-family: "Open sans", sans-serif;
+    font-weight: light;
+    font-size: 15px;
+    color: #033048;
+    padding-top: 10px;
+    
+}
+h4{
+    font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: #033048;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+h5{
+   font-family: "Open sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f9e42e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.finetext{
+    font-family: "Open sans", sans-serif;
+    font-weight: light;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+img{
+    padding:5px;
+}
+.read{
+    font-family: "Open sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #033048;
+    text-align: right;
+}
+
